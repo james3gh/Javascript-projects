@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-size: 35px;
+  font-weight: 700;
+  font-style: italic;
+  background-color: orchid;
+}
+.hide {
+  display: none;
+}
+.score {
+  width: 300px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 15px;
+  left: 40px;
+  cursor: pointer;
+  justify-content: center;
+  background-color: rgba(255, 255, 0, 0.692);
+  color: black;
+  box-shadow: 0 5px 5px green;
+}
+.details {
+  width: 50%;
+  height: 100px;
+  text-align: center;
+  padding: 15px;
+  position: absolute;
+  cursor: pointer;
+  border: 2px solid red;
+  left: 50%;
+  z-index: 1;
+  line-height: 30px;
+  text-align: center;
+  color: red;
+  margin: auto;
+  top: 50%;
+  font-size: 25px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 5px 5px red;
+  background-color: lightgreen;
+}
+.gameArea {
+  width: 500px;
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+.ball,
+.enemy {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  bottom: 130px;
+}

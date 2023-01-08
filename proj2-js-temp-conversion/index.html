@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temp-conversion</title>
+</head>
+<body>
+        <div class="container">
+
+            <h2>TEMPERATURE CONVERSION</h2>
+            <div class="content">
+            <div>
+                <input type="number" value="" id="temp1">
+                <form action="">
+                    <select name="temp" id="dropdown1" onchange="change1()">
+                      <option value="Celsius" class="C" selected>Celsius</option>
+                      <option value="Fahrenheit" class="F">Fahrenheit</option>
+                      <option value="Kelvin">Kelvin</option>
+                    </select>
+                  </form>
+            </div>
+
+            <div id="equal">=</div>
+
+            <div>
+                <input type="number" value="" id="temp2">
+                <form action="">
+                    <select name="temp" id="dropdown2" onchange="change2()">
+                        <option value="Celsius" class="C">Celsius</option>
+                        <option value="Fahrenheit" class="F" selected>Fahrenheit</option>
+                        <option value="Kelvin">Kelvin</option>
+                    </select>
+                  </form>
+            </div>
+            </div>
+
+        </div>
+       <script src="script.js"></script> 
+</body>
+</html>

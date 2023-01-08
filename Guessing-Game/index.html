@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- stylesheet  -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Color-Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <header id="header">
+        <h3>THE GREAT</h3>
+        <h1 id="color-pick"></h1>
+        <h3>COLOR GAME</h3>
+      </header>
+      <div class="options">
+        <div id="new-game" onclick="newGame()">New Game</div>
+        <div id="status"></div>
+        <div>
+          <span id="easy" onclick="initialConf(3)">Easy</span>
+          <span id="hard" onclick="initialConf(6)">Hard</span>
+        </div>
+      </div>
+      <div id="game-grid">
+        <div class="box a"></div>
+        <div class="box b"></div>
+        <div class="box c"></div>
+        <div class="box d"></div>
+        <div class="box e"></div>
+        <div class="box f"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

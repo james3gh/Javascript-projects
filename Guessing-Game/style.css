@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-align: center;
+  word-spacing: 2px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 2% auto;
+  padding-bottom: 1.5%;
+  background-color: rgba(68, 68, 68, 0.719);
+  border: 1px solid red;
+  border-radius: 6px;
+  box-shadow: 5px 5px 3px;
+}
+
+header {
+  background-color: rgba(255, 230, 0, 0.795);
+  padding: 0.5% 0px;
+  line-height: 30px;
+}
+
+/* Game-buttons */
+.options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: large;
+  text-transform: capitalize;
+  background-color: aquamarine;
+  border: 1px solid black;
+  padding: 2px 0;
+}
+#new-game,
+#hard,
+#easy {
+  padding: 5px 9px;
+  cursor: pointer;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+#new-game:hover,
+#hard:hover,
+#easy:hover {
+  background-color: aqua;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+/* !Game-buttons */
+
+/* Game-Area */
+#game-grid {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  gap: 15px;
+  margin: 20px auto;
+  width: 20.7rem;
+}
+.box {
+  border-radius: 5px;
+  width: 100px;
+  height: 80px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+/* !Game-Area */
